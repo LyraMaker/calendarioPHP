@@ -8,6 +8,8 @@ Esse projeto tem como objetivo **executar a primeira prática do livro: PHP e My
 - [ ] Contagem do dia do ano;
 - [ ] Contagem de quantas semanas cada mês terá;
 - [ ] Gerador de calendário pesonalizado;
+- [ ] Saudação dependendo do horário da visita;
+- [ ] Sábados e Domingos com background diferente;
 
 ## Tecnologias que utilizarei 🌐
 
