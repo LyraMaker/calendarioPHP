@@ -25,7 +25,7 @@ date_default_timezone_set('America/Sao_Paulo');
     </header>
     <main class="section">
         <div class="container is-flex is-justify-content-center">
-            <table class="table is-striped is-bordered">
+            <table class="table is-striped is-bordered has-text-centered">
                 <?php echo tituloCalendario();
                 ?>
                 <tbody>

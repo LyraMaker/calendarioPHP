@@ -4,7 +4,7 @@ Esse projeto tem como objetivo **executar a primeira prática do livro: PHP e My
 
 ## O que deverei fazer? 📓
 - [ ] Listagem de todos os meses do ano;
-- [ ] Destaque do dia atual;
+- [x] Destaque do dia atual;
 - [ ] Contagem do dia do ano;
 - [ ] Contagem de quantas semanas cada mês terá;
 - [ ] Gerador de calendário pesonalizado;
