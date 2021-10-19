@@ -1,8 +1,6 @@
 <?php
 include "confi/ambiente.php";
 include 'estruturas/calendario.php';
-setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-date_default_timezone_set('America/Sao_Paulo');
 
 ?>
 <!DOCTYPE html>
@@ -13,7 +11,8 @@ date_default_timezone_set('America/Sao_Paulo');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <title>📅 calendarioPHP | Que dia é hoje ?</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>calendarioPHP | Que dia é hoje ?</title>
 </head>
 
 <body>
@@ -21,6 +20,7 @@ date_default_timezone_set('America/Sao_Paulo');
         <div class="container has-text-centered p-4">
             <h1 class="title has-text-white	 ">📅 calendarioPHP | Que dia é hoje ?</h1>
             <h2 class="subtitle pt-3 has-text-white"><?php echo    "Hoje é " . "<strong class='has-text-warning'>" . date('d/m/Y') . '</strong>';    ?> </h2>
+            <h2 class="subtitle has-text-white"><?php echo saudacao(); ?> </h2>
         </div>
     </header>
     <main class="section">
